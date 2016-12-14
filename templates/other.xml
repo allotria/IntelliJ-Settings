@@ -1,0 +1,38 @@
+<templateSet group="other">
+  <template name="todo" value="// TODO [$USER$, $DATE$] $END$" description="Insert a Java TODO comment" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="fixme" value="// FIXME [$USER$, $DATE$] $END$" description="Insert a Java FIXME comment" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="review" value="// REVIEW [$USER$, $DATE$] $END$" description="Insert a REVIEW comment" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+  <template name="rem" value="// [$USER$, $DATE$] $END$" description="Insert a Java comment" toReformat="false" toShortenFQNames="true">
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSP" value="true" />
+    </context>
+  </template>
+</templateSet>

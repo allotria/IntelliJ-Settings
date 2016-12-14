@@ -1,0 +1,29 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Project 'ace'" />
+    <option name="defaultScopeName" value="Project 'ace'" />
+    <option name="skipResultsWithOneUsage" value="true" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="Project 'ace'" />
+    <recentFileMasks>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.as</mask>
+      <mask>*.mxml</mask>
+      <mask>*.JS</mask>
+      <mask>*.css</mask>
+      <mask>web-fragment.xml</mask>
+      <mask>web*.xml</mask>
+      <mask>*.content</mask>
+      <mask>*.py</mask>
+      <mask>*.xml</mask>
+      <mask>*.js</mask>
+      <mask>*.properties</mask>
+      <mask>*.java</mask>
+      <mask>*.json</mask>
+      <mask>pom.xml</mask>
+    </recentFileMasks>
+  </component>
+</application>

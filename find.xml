@@ -7,6 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'ace'" />
+    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -22,8 +23,8 @@
       <mask>*.js</mask>
       <mask>*.properties</mask>
       <mask>*.java</mask>
-      <mask>*.json</mask>
       <mask>pom.xml</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
